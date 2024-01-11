@@ -1,0 +1,11 @@
+KafkaClient:
+  SubscribeTopic: TopicTest1
+  BootstrapServers: localhost
+  GroupID: myGroup
+  AutoOffsetReset: earliest
+
+Repository:
+  DATABASE_URL: postgres://postgres:postgres@localhost:5432/postgres
+
+HTTP:
+  PORT: 8080

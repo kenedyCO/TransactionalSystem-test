@@ -1,0 +1,6 @@
+KafkaClient:
+  SubscribeTopic: Transactions
+  BootstrapServers: localhost
+  GroupID: myGroup
+  AutoOffsetReset: earliest
+
